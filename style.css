@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    height: 100vh;
+    width: 100%;
+}
+.box {
+    position: relative;
+    width: 420px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aliceblue;
+    box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.4);
+    border-radius: 12px;
+}
+.musicText {
+    position: absolute;
+    width: 300px;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.musicText h2 {
+    font-size: 25px;
+}
+.musicPhoto {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.musicPhoto img:nth-child(1),
+.musicPhoto img:nth-child(2),
+.musicPhoto img:nth-child(3){
+    width: 300px;
+    height: 300px;
+}
+.musicPart {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 315px;
+    height: 15px;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+    border-radius: 8px;
+}
+.musicPart div {
+    position: relative;
+    width: 300px;
+}
+.circle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+}
+.musicSettings {
+    position: absolute;
+    top: 440px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30px;
+}
+.musicSettings div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.musicSettings div span {
+    position: absolute;
+    bottom: -37px;
+}
+.musicSettings div span:nth-child(1) {
+    margin-right: 150px;
+}
+.musicSettings span:nth-child(4) {
+    margin-left: 150px;
+}
+.musicSettings span i {
+    background-color: aliceblue;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.4);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+
+.stopOne {
+    display: none;
+}
+audio {
+    display: none;
+}
+#Photo2, #Photo3 {
+    display: none;
+}

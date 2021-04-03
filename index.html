@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+    <div class = "box">
+        <div class = "musicText">
+            <h2>Play your favorite music</h2>
+        </div>
+
+        <div class = "musicPhoto">
+            <img src = "Tools/Photo1.jpg" id = "Photo1">
+            <img src = "Tools/Photo2.jpg" id = "Photo2">
+            <img src = "Tools/Photo3.jpg" id = "Photo3">
+        </div>
+        
+        <div class = "musicPart" id = "musicPart">
+            <div>
+                <span class = "circle" id = "circle"></span>
+            </div>
+        </div>
+
+        <div class = "musicSettings">
+            <div>
+                <span class = "previosOne" id = "prevOne">
+                    <i class="fas fa-backward"></i>
+                </span>
+                <span class = "beginOne" id = "beginOne">
+                    <i class="far fa-caret-square-right"></i>
+                </span>
+                <span class = "stopOne" id = "stopOne">
+                    <i class="fas fa-stop"></i>
+                </span>
+                <span class = "nextOne" id = "nextOne">
+                    <i class="fas fa-forward"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!--Music1-->
+    <audio controls id = "music1">
+        <source src = "Tools/music1.mp3" id = "birinci">
+    </audio>
+
+    <!--Music2-->
+    <audio controls id = "music2">
+        <source src = "Tools/music2.mp3">
+    </audio>
+
+    <!--Music3-->
+    <audio controls id = "music3">
+        <source src = "Tools/music3.mp3">
+    </audio>
+
+
+
+
+
+
+
+
+
+    <script src = "app.js"></script>
+
+</body>
+</html>
